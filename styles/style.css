@@ -54,6 +54,7 @@ nav {
     background-color: #469165;
     border: none;
     padding: 12.5px 16px;
+    border-radius: 4px;
 }
 
 /* ---------------------------------Nav Bar done------------------------------------- */
@@ -78,6 +79,35 @@ nav {
     background-color: white;
     border-radius: 1000px;
     padding: 8px 12px 9px 34px; 
+}
+.button-3{
+     color: white;
+    border-radius: 4px;
+    background-color:#469165;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16.5px 30px 16.5px 16.5px ;
+    border: none;
+    margin-right: 16px;
+}
+
+.button-3 i{
+    padding-left: 10px;
+}
+
+
+.button-4{
+    color: white;
+    border-radius: 4px;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 15px 15px 30px;
+    border:2px solid white  ;
+}
+
+.button-4 i{
+    padding-right:  22px;
 }
 
 .content-container{
@@ -110,4 +140,5 @@ nav {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 32px;
 }
