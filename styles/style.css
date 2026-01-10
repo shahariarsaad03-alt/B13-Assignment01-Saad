@@ -275,6 +275,7 @@ nav {
     margin: 0 auto;
     text-align: center;
     background-color: #F7F6F2;
+    margin-bottom: 120px;
 }
 
 .early-acess-container h2{
@@ -317,6 +318,7 @@ nav {
 .footer{
      background-color: #001931;
      padding-top: 120px;
+     padding-bottom: 80px;
 }
 
 .footer-container{
@@ -326,6 +328,7 @@ nav {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+  
 }
 
 .footer-container p{
@@ -336,15 +339,11 @@ nav {
     padding-bottom: 16px;
 }
 .footer-container p i{
-    border-radius: 50%;
-    background-color: white;
+border-radius: 50%;
+background-color: white;
 
 }
 
 .line{
-    height: 2px;
-    width: 1360px;
-    background: white;
-    border: none;
-justify-content: center;
+   
 }
