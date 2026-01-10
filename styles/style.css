@@ -44,7 +44,10 @@ nav {
 
 #button{
     padding-left: 346px; 
+<<<<<<< HEAD
     cursor: pointer;
+=======
+>>>>>>> 800d37689bb88bcd6a2aec29c8ba8a5d1f5bd934
      /* (here I have separated the early access button and options) */
 }
 
@@ -56,7 +59,10 @@ nav {
     border: none;
     padding: 12.5px 16px;
     border-radius: 4px;
+<<<<<<< HEAD
     cursor: pointer;
+=======
+>>>>>>> 800d37689bb88bcd6a2aec29c8ba8a5d1f5bd934
 }
 
 /* ---------------------------------Nav Bar done------------------------------------- */
@@ -81,7 +87,10 @@ nav {
     background-color: white;
     border-radius: 1000px;
     padding: 8px 12px 9px 34px; 
+<<<<<<< HEAD
     cursor: pointer;
+=======
+>>>>>>> 800d37689bb88bcd6a2aec29c8ba8a5d1f5bd934
 }
 .button-3{
      color: white;
@@ -92,7 +101,10 @@ nav {
     padding: 16.5px 30px 16.5px 16.5px ;
     border: none;
     margin-right: 16px;
+<<<<<<< HEAD
     cursor: pointer;
+=======
+>>>>>>> 800d37689bb88bcd6a2aec29c8ba8a5d1f5bd934
 }
 
 .button-3 i{
@@ -108,7 +120,10 @@ nav {
     font-weight: 500;
     padding: 15px 15px 15px 30px;
     border:2px solid white  ;
+<<<<<<< HEAD
     cursor: pointer;
+=======
+>>>>>>> 800d37689bb88bcd6a2aec29c8ba8a5d1f5bd934
 }
 
 .button-4 i{
@@ -120,6 +135,10 @@ nav {
     width: 85%;
     justify-content: center;
     text-align: center;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 800d37689bb88bcd6a2aec29c8ba8a5d1f5bd934
     margin: 0 auto;
     
 }
@@ -146,6 +165,7 @@ nav {
     margin-right: auto;
     margin-bottom: 32px;
 }
+<<<<<<< HEAD
 
 /* --------------------------Notes Section------------------------------- */
 
@@ -212,3 +232,5 @@ nav {
 }
 
 
+=======
+>>>>>>> 800d37689bb88bcd6a2aec29c8ba8a5d1f5bd934
