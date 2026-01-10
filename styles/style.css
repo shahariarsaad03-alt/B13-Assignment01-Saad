@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 
-.font-inter{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+.font-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
 }
+
 header {
     padding-top: 16px;
-    
+
 }
 
 nav {
@@ -19,7 +20,7 @@ nav {
     max-width: 1360px;
     margin: 0 auto;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -35,23 +36,20 @@ nav {
 .menu a {
     text-decoration: none;
     color: #000000;
-  
+
 }
 
-#options-bar{
+#options-bar {
     display: flex;
 }
 
-#button{
-    padding-left: 346px; 
-<<<<<<< HEAD
+#button {
+    padding-left: 346px;
     cursor: pointer;
-=======
->>>>>>> 800d37689bb88bcd6a2aec29c8ba8a5d1f5bd934
-     /* (here I have separated the early access button and options) */
+    /* (here I have separated the early access button and options) */
 }
 
-.btn{
+.btn {
     color: white;
     font-size: 16px;
     font-weight: 600;
@@ -59,15 +57,12 @@ nav {
     border: none;
     padding: 12.5px 16px;
     border-radius: 4px;
-<<<<<<< HEAD
     cursor: pointer;
-=======
->>>>>>> 800d37689bb88bcd6a2aec29c8ba8a5d1f5bd934
 }
 
 /* ---------------------------------Nav Bar done------------------------------------- */
 
-#banner{
+#banner {
     background: url("../images/hero-bg.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -80,82 +75,71 @@ nav {
     justify-content: center;
 }
 
-#button-2{
+#button-2 {
     font-size: 16px;
     color: green;
     font-weight: 500;
     background-color: white;
     border-radius: 1000px;
-    padding: 8px 12px 9px 34px; 
-<<<<<<< HEAD
+    padding: 8px 12px 9px 34px;
     cursor: pointer;
-=======
->>>>>>> 800d37689bb88bcd6a2aec29c8ba8a5d1f5bd934
-}
-.button-3{
-     color: white;
-    border-radius: 4px;
-    background-color:#469165;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 16.5px 30px 16.5px 16.5px ;
-    border: none;
-    margin-right: 16px;
-<<<<<<< HEAD
-    cursor: pointer;
-=======
->>>>>>> 800d37689bb88bcd6a2aec29c8ba8a5d1f5bd934
 }
 
-.button-3 i{
+.button-3 {
+    color: white;
+    border-radius: 4px;
+    background-color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16.5px 30px 16.5px 16.5px;
+    border: none;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.button-3 i {
     padding-left: 10px;
 }
 
 
-.button-4{
+.button-4 {
     color: white;
     border-radius: 4px;
     background-color: transparent;
     font-size: 16px;
     font-weight: 500;
     padding: 15px 15px 15px 30px;
-    border:2px solid white  ;
-<<<<<<< HEAD
+    border: 2px solid white;
     cursor: pointer;
-=======
->>>>>>> 800d37689bb88bcd6a2aec29c8ba8a5d1f5bd934
 }
 
-.button-4 i{
-    padding-right:  22px;
+.button-4 i {
+    padding-right: 22px;
 }
 
-.content-container{
+.content-container {
     max-width: 1360px;
     width: 85%;
     justify-content: center;
     text-align: center;
-<<<<<<< HEAD
-=======
-    
->>>>>>> 800d37689bb88bcd6a2aec29c8ba8a5d1f5bd934
     margin: 0 auto;
-    
+
 }
 
-.content-container h1{
+.content-container h1 {
     font-size: 72px;
     font-weight: bold;
     color: white;
     padding-top: 24px;
 }
-.content-container h2{
-      font-size: 72px;
+
+.content-container h2 {
+    font-size: 72px;
     font-weight: bold;
     color: #30B868;
 }
 
-.content-container p{
+.content-container p {
     font-size: 18px;
     color: white;
     line-height: 24px;
@@ -165,18 +149,18 @@ nav {
     margin-right: auto;
     margin-bottom: 32px;
 }
-<<<<<<< HEAD
 
 /* --------------------------Notes Section------------------------------- */
 
-.notes-container{
+.notes-container {
     max-width: 1360px;
     width: 85%;
     justify-content: center;
     text-align: center;
     margin: 0 auto;
 }
-.notes-container h1{
+
+.notes-container h1 {
     font-size: 48px;
     font-weight: bold;
     padding-bottom: 16px;
@@ -184,27 +168,28 @@ nav {
     padding-top: 45px;
 }
 
-.notes-container p{
+.notes-container p {
     font-size: 16px;
     color: #627382;
     line-height: 20px;
     margin-bottom: 44px;
 }
 
-.notes-box{
+.notes-box {
     max-width: 1360px;
-    justify-content:space-between;
+    justify-content: space-between;
     display: flex;
     margin: 0 auto;
     text-align: center;
 }
 
-.notes-cards{
-    padding:30px;
+.notes-cards {
+    padding: 30px;
     max-width: 325px;
-    box-shadow: 0 6px 50px 0 #0000002f;
+    box-shadow: 0px 2px 15px -6px #0000002f;
     gap: 24px;
     border-radius: 8px;
+    background-color: #FFFFFF;
 }
 
 .notes-cards img {
@@ -217,7 +202,7 @@ nav {
     object-fit: contain;
 }
 
-.notes-cards h3{
+.notes-cards h3 {
     font-size: 24px;
     font-weight: 500;
     color: #001931;
@@ -225,12 +210,141 @@ nav {
     margin-bottom: 16px;
 }
 
-.notes-cards p{
-    font-size: 16px;    
+.notes-cards p {
+    font-size: 16px;
     line-height: 20px;
     color: #627382;
 }
 
+.second-brain-container {
+    max-width: 1360px;
+    width: 85%;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 120px;
+    gap: 60px;
+    align-items: center;
+    padding-bottom: 120px;
+    text-align: left;
+}
 
-=======
->>>>>>> 800d37689bb88bcd6a2aec29c8ba8a5d1f5bd934
+.second-brain-container img {
+    max-width: 600px;
+}
+
+#solution {
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    line-height: 20px;
+    padding-bottom: 16px;
+    max-width: 700px;
+}
+
+.second-brain-container h3 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    padding-bottom: 16px;
+    max-width: 490px;
+}
+
+#below-solution {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+.second-brain-container ul {
+    list-style: none;
+}
+
+.second-brain-container ul li {
+    font-size: 16px;
+    font-weight: 500;
+    color: #001931;
+    line-height: 20px;
+}
+
+.early-acess-container {
+    max-width: 1360px;
+    width: 85%;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F7F6F2;
+}
+
+.early-acess-container h2{
+    color: #001931;
+    padding-top: 80px;
+    padding-bottom: 16px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.early-acess-container p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    padding-bottom: 24px;
+}
+.early-acess-container button{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 25px;
+    background-color: #469165;
+}
+
+.early-acess-container button img{
+    vertical-align:middle;
+    padding-left: 10px;
+}
+
+.early-acess-container .p-2{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    padding-top: 16px;
+    padding-bottom: 80px;
+}
+
+.footer{
+     background-color: #001931;
+     padding-top: 120px;
+}
+
+.footer-container{
+    border: 1px solid rebeccapurple;
+    max-width: 1360px;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container p{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    padding-bottom: 16px;
+}
+.footer-container p i{
+    border-radius: 50%;
+    background-color: white;
+
+}
+
+.line{
+    height: 2px;
+    width: 1360px;
+    background: white;
+    border: none;
+justify-content: center;
+}
